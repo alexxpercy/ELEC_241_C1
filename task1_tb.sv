@@ -16,49 +16,51 @@ begin
 	
 	//go through all possible values, assert each
 	//list all possible combinations + assert individual y values + assert if y is equal
+
 	{a, b, c} = 3'b000;
+	#10ps
 	assert (y_structural == 2'b00) $display("1A - PASS"); else $error("1A - FAIL");
 	assert (y_other == 2'b00) $display("1B - PASS"); else $error("1B - FAIL");
 	assert (y_structural == y_other) $display("PASS"); else $error ("FAIL");
 	
-	#5ps
 	{a, b, c} = 3'b001;
+	#10ps
 	assert (y_structural == 2'b01) $display("1A - PASS"); else $error("1A - FAIL");
 	assert (y_other == 2'b01) $display("1B - PASS"); else $error("1B - FAIL");
 	assert (y_structural == y_other) $display("PASS"); else $error ("FAIL");
 	
-	#5ps
 	{a, b, c} = 3'b010;
+	#10ps
 	assert (y_structural == 2'b01) $display("1A - PASS"); else $error("1A - FAIL");
 	assert (y_other == 2'b01) $display("1B - PASS"); else $error("1B - FAIL");
 	assert (y_structural == y_other) $display("PASS"); else $error ("FAIL");
 	
-	#5ps
 	{a, b, c} = 3'b011;
+	#10ps
 	assert (y_structural == 2'b10) $display("1A - PASS"); else $error("1A - FAIL");
 	assert (y_other == 2'b10) $display("1B - PASS"); else $error("1B - FAIL");
 	assert (y_structural == y_other) $display("PASS"); else $error ("FAIL");
 	
-	#5ps
 	{a, b, c} = 3'b100;
+	#10ps
 	assert (y_structural == 2'b01) $display("1A - PASS"); else $error("1A - FAIL");
 	assert (y_other == 2'b01) $display("1B - PASS"); else $error("1B - FAIL");
 	assert (y_structural == y_other) $display("PASS"); else $error ("FAIL");
 	
-	#5ps
 	{a, b, c} = 3'b101;
+	#10ps
 	assert (y_structural == 2'b10) $display("1A - PASS"); else $error("1A - FAIL");
 	assert (y_other == 2'b10) $display("1B - PASS"); else $error("1B - FAIL");
 	assert (y_structural == y_other) $display("PASS"); else $error ("FAIL");
 	
-	#5ps
 	{a, b, c} = 3'b110;
+	#10ps
 	assert (y_structural == 2'b10) $display("1A - PASS"); else $error("1A - FAIL");
 	assert (y_other == 2'b10) $display("1B - PASS"); else $error("1B - FAIL");
 	assert (y_structural == y_other) $display("PASS"); else $error ("FAIL");
 	
-	#5ps
 	{a, b, c} = 3'b111;
+	#10ps
 	assert (y_structural == 2'b11) $display("1A - PASS"); else $error("1A - FAIL");
 	assert (y_other == 2'b11) $display("1B - PASS"); else $error("1B - FAIL");
 	assert (y_structural == y_other) $display("PASS"); else $error ("FAIL");
