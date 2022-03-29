@@ -15,16 +15,10 @@ A	B	C	Y
 module task1b(output logic [1:0] Y, input logic A, B, C);
 
 //use dataflow type, behavioural would involve reg instead of wires
-//create internal values for each Y bit
-logic Y0;
-logic Y1;
 
 //create logic statements
-assign Y0 = (~A & ~B & C) | (~A & B & ~C) | (A & ~B & ~C) | (A & B & C);
-assign Y1 = (~A & B & C) | (A & ~B & C) | (A & B & ~C) | (A & B & C);
-
-//assign to output
-Y[1:0] = {Y1, Y0};
+assign Y[0] = (~A & ~B & C) | (~A & B & ~C) | (A & ~B & ~C) | (A & B & C);
+assign Y[1] = (~A & B & C) | (A & ~B & C) | (A & B & ~C) | (A & B & C);
 
 endmodule
 
