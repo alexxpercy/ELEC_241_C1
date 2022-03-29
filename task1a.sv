@@ -28,9 +28,6 @@ logic notC;
 //internal comb wires - differenciate between all AND combos
 logic Y0_1, Y0_2, Y0_3, Y0_4;
 logic Y1_1, Y1_2, Y1_3, Y1_4;
-//internal wires for Y
-logic Y0;
-logic Y1;
 
 //assign values to not_X
 not u1 (notA, A);
@@ -41,15 +38,12 @@ and a1 (Y0_1, notA, notB, C);
 and a2 (Y0_2, notA, B, notC);
 and a3 (Y0_3, A, notB, notC);
 and a4 (Y0_4, A, B, C);
-or a5 (Y0, Y0_1, Y0_2, Y0_3, Y0_4);
+or a5 (Y[0], Y0_1, Y0_2, Y0_3, Y0_4);
 //assign values to Y combos - bit 1
 and b1 (Y1_1, notA, B, C);
 and b2 (Y1_2, A, notB, C);
 and b3 (Y1_3, A, B, notC);
 and b4 (Y1_4, A, B, C);
-or b5 (Y1, Y1_1, Y1_2, Y1_3, Y1_4);
-
-//assign values to output
-Y[1:0] = {Y1, Y0};
+or b5 (Y[1], Y1_1, Y1_2, Y1_3, Y1_4);
 
 endmodule

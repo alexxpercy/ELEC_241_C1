@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1
+vtask1_tb
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1648564739
+!i10b 1
+!s100 f48=QllNbLnl3T[UFkXh23
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IR85cXE8JoL6fz=Yd@P0gN0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1648564644
+8C:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task1_tb.sv
+FC:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task1_tb.sv
+!i122 0
+L0 1 68
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1648564739.000000
+!s107 C:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task1_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task1_tb.sv|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vtask1a
+R1
+!s110 1648565384
+!i10b 1
+!s100 ^oaF<4Sz7Ye^DX:PLfJCC1
+R2
+IlL<@Xc1f`gfifNZ^7jTTG2
+R3
+S1
+R0
+w1648565374
+8C:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task1a.sv
+FC:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task1a.sv
+!i122 2
+L0 16 34
+R4
+r1
+!s85 0
+31
+!s108 1648565384.000000
+!s107 C:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task1a.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task1a.sv|
+!i113 1
+R5
+R6
