@@ -39,7 +39,7 @@ always_ff @ (posedge CLK, negedge n_RESET)
 always_comb
 	begin
 		//create FOR loop for all combinations - 2^n - 1 = 65535
-		for(int i = 0; i < 65535; i++)
+		for(int i = 0; i < 65535; i++) begin
 			//set feedback bit as first value
 			feedback_bit <= Q[0];
 			//find xor values
@@ -48,6 +48,7 @@ always_comb
 			xor_11 <= (feedback_bit ^ Q[11]) & 1;
 			//shift all to right and OR all xor bits to left, set feedback bit to start of array
 			Q <= (Q >> 1) | (feedback_bit << 15) | (xor_14 << 13) | (xor_13 << 12) | (xor_11 << 10);
+		end
 	end
 
 
