@@ -84,26 +84,51 @@ r1
 !i113 1
 R5
 R6
-vtask2_tb
+vtask2
 R1
-!s110 1648656759
+!s110 1648657397
 !i10b 1
-!s100 9U1GQGaeQ0HoMPibc6h2h1
+!s100 aQbelNz83e[NOiWg4ZIQ:3
 R2
-I1j1zni5zCeSRenL^31Oao2
+IVDnS0VnZH0n_dD`MITUS91
 R3
 S1
 R0
-w1648656755
-8C:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task2_tb.sv
-FC:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task2_tb.sv
-!i122 18
-L0 1 47
+w1648657394
+8C:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task2.sv
+FC:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task2.sv
+!i122 19
+L0 2 51
 R4
 r1
 !s85 0
 31
-!s108 1648656759.000000
+!s108 1648657397.000000
+!s107 C:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task2.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task2.sv|
+!i113 1
+R5
+R6
+vtask2_tb
+R1
+!s110 1648657499
+!i10b 1
+!s100 h>_1g=`FMMjG:zo3=Z9>e0
+R2
+IJSn80[MQiUaLIb[048aJU0
+R3
+S1
+R0
+w1648657495
+8C:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task2_tb.sv
+FC:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task2_tb.sv
+!i122 21
+L0 1 48
+R4
+r1
+!s85 0
+31
+!s108 1648657499.000000
 !s107 C:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task2_tb.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task2_tb.sv|
 !i113 1

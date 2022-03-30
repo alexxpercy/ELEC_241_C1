@@ -4,6 +4,7 @@ module task2_tb;
 logic clk, n_reset;
 logic [15:0] q;
 parameter N = 16'b1010110011100001;
+//to be put in loop
 int i;
 
 //connect to module
