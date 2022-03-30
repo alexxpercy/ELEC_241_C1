@@ -4,6 +4,7 @@ module task2_tb;
 logic clk, n_reset;
 logic [15:0] q;
 parameter N = 16'b1010110011100001;
+int i;
 
 //connect to module
 task2 #(N) u1 (q, clk, n_reset);
@@ -12,24 +13,25 @@ initial
 
 //Write testbench here
 
+begin
+
 //create clock
-#(10ps);
 clk = '0;
 
 //set n_reset to 0 to initialise
-#(10ps);
 n_reset = '0;
+#10ps
 
 //set reset to 1
-#(10ps);
 n_reset = '1;
+#10ps
 
 //create for loop (loop forever, include if statements to check first 3 iterations)
 //double loop for all clock cycles
-
-generate for (genvar i = 0; i < 131070; i++)
-	begin
-		#(10ps) clk = ~clk;
+for (i = 0; i < 131070; i++);
+	begin 
+		clk = ~clk;
+		#10ps
 		//assert initial value at start - triggered at posedge, so when clk = 1
 		case(i)
 			0: if (q == N) $info("Initial run - PASS"); else $error("Initial run - FAIL");
@@ -39,6 +41,7 @@ generate for (genvar i = 0; i < 131070; i++)
 			default;
 		endcase
 	end
-endgenerate
+
+end
 
 endmodule

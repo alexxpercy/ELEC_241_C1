@@ -84,3 +84,28 @@ r1
 !i113 1
 R5
 R6
+vtask2_tb
+R1
+!s110 1648656759
+!i10b 1
+!s100 9U1GQGaeQ0HoMPibc6h2h1
+R2
+I1j1zni5zCeSRenL^31Oao2
+R3
+S1
+R0
+w1648656755
+8C:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task2_tb.sv
+FC:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task2_tb.sv
+!i122 18
+L0 1 47
+R4
+r1
+!s85 0
+31
+!s108 1648656759.000000
+!s107 C:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task2_tb.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/alexx/OneDrive/Desktop/Uni/Year 2/Semester 2/Real-Time Systems/ELEC_241_C1/task2_tb.sv|
+!i113 1
+R5
+R6
