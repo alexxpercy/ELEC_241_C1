@@ -4,7 +4,7 @@ N - parameter to be passed when tested
 Q - reg to be able to take a value from arithmetic
 CLK - clock, used for synchronous restarts
 */
-module task3 #(parameter N)(output int Q, input logic CLK );
+module task3 #(parameter N)(output reg Q, input logic CLK );
 
 //Write solution here
 

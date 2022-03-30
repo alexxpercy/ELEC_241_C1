@@ -12,7 +12,7 @@ task3 #(N) u1 (Q, CLK);
 //create clock
 initial
 begin
-#10ps
+
 CLK <= '0;
 forever
 	begin
