@@ -32,10 +32,9 @@ always_ff @ (posedge CLK, negedge n_RESET)
 		
 always_comb
 	Q <= N;
-	begin
 		//create FOR loop for all combinations - 2^n - 1 = 65535
 		generate for(genvar i = 0; i < 65535; i++) 
-		begin
+		begin: f_loop
 			//set feedback bit as first value
 			//find xor values
 			xor_14 <= (Q ^ (Q >> 14)) & 1;
@@ -45,7 +44,6 @@ always_comb
 			Q <= (Q >> 1) | (feedback_bit << 15) | (xor_14 << 13) | (xor_13 << 12) | (xor_11 << 10);
 		end
 		end generate
-	end
 
 
 endmodule
